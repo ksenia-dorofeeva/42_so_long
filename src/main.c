@@ -6,7 +6,7 @@
 /*   By: brickard <brickard@student.21-school.ru    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/23 13:23:27 by brickard          #+#    #+#             */
-/*   Updated: 2022/08/23 15:16:07 by brickard         ###   ########.fr       */
+/*   Updated: 2022/08/25 18:00:07 by brickard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	key_pressed(int keycode, t_vars *vars)
 	int	y;
 
 	if (keycode == 53)
-		ft_close(vars);
+		exit(0);
 	x = vars->game.player_x;
 	y = vars->game.player_y;
 	if (keycode == 13 && vars->game.map[y - 1][x] != '1')

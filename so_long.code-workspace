@@ -9,6 +9,7 @@
 			"unistd.h": "c",
 			"fcntl.h": "c",
 			"so_long.h": "c"
-		}
+		},
+		"makefile.extensionOutputFolder": "./.vscode"
 	}
 }
